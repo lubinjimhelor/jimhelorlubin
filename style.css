@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+div ul{
+float: right;
+}
+nav ul{
+	background-color:#012;
+	text-align:right;
+	background-color:#012;
+	color:rgb(224, 218, 218);
+	text-align:right;
+	padding:0px;
+	width:100%;
+	
+border-bottom:5px solid #fffcfc;
+}
+
+ nav ul li{
+	display: inline-block;
+	padding:20px;
+	top:20px;
+	left:15px;
+	font-size:25px;
+	
+}
+
+nav ul li a{
+	color:white;
+	text-decoration:none;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	
+}
+nav ul li:hover{
+  background-color:#f32020;
+	padding:20px;
+cursor:pointer;
+
+text-transform: uppercase;
+
+
+}
+
+.hero{
+	height: 100vh;
+	background-image: linear-gradient(rgba(0.5, 0, 0, 0.8),rgba(0,0,0,0.6)),url(3.jpg);
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+	position: relative;
+
+}
+
+
+
+ .para-title{
+	 margin:20% ;
+	 color: red;
+	 
+ }
+ .para-title h1{
+	text-align: center;
+	margin-bottom: 30px;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    letter-spacing: 15px;
+    width: 100%;
+	font-size: 75px;
+	color: #e40404;
+
+
+ }
+ .para-title span{
+	 color: white;
+ } 
+ 
+#boxes .box{
+	float:left;
+	text-align:center;
+	width:30%;
+	padding:10px;
+}
+h3{
+	text-align: center;
+}
+.lu{
+	text-align: justify;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+/*----------------------------------- pied de page----------------------*/
+
+footer{
+	padding:20px;
+	margin-top:20px;
+	color:#ffffff;
+	background-color:#012;
+	text-align:center;
+}
+footer img{
+	width:70px;
+}
+.boxes .box img{
+	width:120px;
+	height:105px;
+
+}
+ol li{
+	display: inline-block;
+	padding: 8px 25px ;
+	
+	
+}
+li img{
+	width:40px
+}
+.bloc-footer-media img{
+	width: 30px;
+	height: 1px;
+	
+}
+.bloc-footer-media {
+	color: white;
+}
